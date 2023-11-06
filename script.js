@@ -298,7 +298,7 @@ console.log(Math.floor('23.3'));
 
 console.log((2.7).toFixed(0));
 console.log((2.7).toFixed(3));
-*/
+
 console.log(5 % 2);
 
 const isEven = n => n % 2 === 0;
@@ -313,3 +313,9 @@ labelBalance.addEventListener('click', function () {
     if (i % 3 === 0) row.style.backgroundColor = 'blue';
   });
 });
+*/
+const diameter = 287_460_000_000;
+console.log(diameter);
+
+const priceCents = 345_99;
+console.log(priceCents);
