@@ -313,9 +313,24 @@ labelBalance.addEventListener('click', function () {
     if (i % 3 === 0) row.style.backgroundColor = 'blue';
   });
 });
-*/
+
 const diameter = 287_460_000_000;
 console.log(diameter);
 
 const priceCents = 345_99;
 console.log(priceCents);
+*/
+console.log(2 ** 53 - 1);
+console.log(2 ** 53 + 1);
+console.log(Number.MAX_SAFE_INTEGER);
+
+console.log(23423847917109740970139749318571340n);
+console.log(BigInt(23423847917109740970139749318571340));
+
+console.log(1777n + 17193791n);
+console.log(38129486193846197634871364816n * 100000000000000n);
+
+const big = 38742983674982639486n;
+const num = 27777;
+
+// console.log(big * num);
