@@ -319,7 +319,7 @@ console.log(diameter);
 
 const priceCents = 345_99;
 console.log(priceCents);
-*/
+
 console.log(2 ** 53 - 1);
 console.log(2 ** 53 + 1);
 console.log(Number.MAX_SAFE_INTEGER);
@@ -334,3 +334,39 @@ const big = 38742983674982639486n;
 const num = 27777;
 
 // console.log(big * num);
+
+
+//Create a date
+const now = new Date();
+console.log(now);
+
+console.log(new Date('2023-11-06T16:41:05.370Z'));
+console.log(new Date('December 24,2023'));
+
+console.log(new Date(account1.movementsDates[0]));
+
+console.log(new Date(2037, 10, 19, 15, 23, 23));
+
+console.log(new Date(0));
+
+//(day*hours*seconds*miliseconds)
+console.log(new Date(3 * 24 * 60 * 60 * 1000));
+*/
+//Working with dates
+const future = new Date(2037, 10, 19, 15, 23);
+console.log(future);
+console.log(future.getFullYear());
+console.log(future.getMonth());
+console.log(future.getDate());
+console.log(future.getDay());
+console.log(future.getHours());
+console.log(future.getMinutes());
+console.log(future.getSeconds());
+console.log(future.toISOString());
+console.log(future.getTime());
+
+console.log(new Date(2142253380000));
+console.log(Date.now());
+
+future.setFullYear(2040);
+console.log(future);
